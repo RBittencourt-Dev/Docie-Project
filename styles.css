@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #563a2f;
+    position: fixed ;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.docie{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+
+}
+
+ul {
+    font-size: 120%;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+.navlinks a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.navlinks a:hover {
+    color: burlywood;
+}
+
+.hero {
+    background: linear-gradient(rgba(44, 24, 16, 0.7), rgba(44, 24, 16, 0.7)), 
+    url(Flyer\ \(1920\ x\ 1080\ px\)\ \(1\).png ) 
+    center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 60px;
+}
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero-conteudo h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-conteudo p {
+font-size: 1.4rem;
+margin-bottom: 2rem;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: burlywood;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+.btn:hover {
+    background-color: rgb(254, 207, 145);
+
+}
+.Sobre {
+    padding: 5rem 2rem ;
+    background-color: #f9f9f9;
+    text-align: center;
+    
+}
+.Sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c1810;
+}
+.Sobre p {
+    font-size: 1.1;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #6666;
+}
+
+.docinhos {
+    width: 85px;
+    height: 85px;
+}
+
+.salgados {
+    width: 90px;
+    height: 90px;
+}
+
+.sacole {
+    width: 95px;
+    height: 87px;
+}
+
+
+.Produtos {
+    padding: 5rem 2rem;
+    background-color: #fff;
+
+}
+.Produtos h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #2c1810;
+
+}
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr ) );
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.produto-card {
+    color: #ff78f4;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.produto-card h3 {
+    color: #000;
+}
+
+.produto-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+.produto-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+.preco {
+    font-weight: bold;
+    color: burlywood;
+    font-size: 1.5rem;
+
+}
+.Localização {
+    padding: 5rem 2rem;
+    background-color: #f9f9f9;
+
+}
+
+@media screen and (max-width: 560px){
+    
+    .navbar {
+         height: 200px;
+         max-width: 430px;
+    }
+
+    .navlinks {
+        margin-top: 130px;
+        margin-right: 1px;
+        
+    }
+
+    li {
+        margin-right: 30px;
+    }
+
+    .docie {
+        margin-left: 135px;
+        position: absolute;
+        margin-top: 45px;
+    }
+    
+    img {
+        max-width: 380px;
+    }
+}
+
