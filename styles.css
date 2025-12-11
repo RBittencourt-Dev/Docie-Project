@@ -195,13 +195,13 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 @media screen and (max-width: 560px){
     
     .navbar {
-         height: 200px;
+         height: 150px;
          max-width: 430px;
     }
 
     .navlinks {
-        margin-top: 130px;
-        margin-right: 1px;
+        margin-top: 100px;
+        margin-left: 25px;
         
     }
 
@@ -210,9 +210,9 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 
     .docie {
-        margin-left: 135px;
-        position: absolute;
-        margin-top: 45px;
+        margin-left: 110px;
+        position: fixed;
+        margin-top: 16px;
     }
     
     img {
@@ -220,9 +220,10 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 444px) {
     .docie {
-        margin-left: 155px;
-        margin-right: 155px;
-    }
+         margin-left: 132px;
+        position: fixed;
+        margin-top: 16px;
+} 
 }
