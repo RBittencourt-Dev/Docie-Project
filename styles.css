@@ -222,6 +222,7 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 
 @media screen and (max-width: 411px) {
     .docie {
-        margin-left: 105px;
+        margin-left: 155px;
+        margin-right: 155px;
     }
 }
